@@ -1,1 +1,158 @@
-a{background: #222;}
+.Ybanner{
+    width: 1423px;
+    height: 500px;
+}
+.Ynav{
+    position:absolute;
+    left:111px;
+    top:108px;
+    .Ynav_title{
+        width: 180px;
+        height: 38px;
+        font-size:16px;
+        color:#fff;
+        text-align:center;
+        line-height: 38px;
+        background: #008842;
+        ul{
+            display:none;
+            height: 462px;
+            background: rgba(255, 255, 255, 0.9);
+            li{
+                a{
+                    display:block;
+                    width: 180px;
+                    height: 42px;
+                    position:relative;
+                    i{
+                        display:inline-block;
+                        width: 24px;
+                        height: 24px;
+                        position:absolute;
+                        left:20px;
+                        top:7px;
+                        background: url('../images/index/nav-icon.png') no-repeat -24px 0;
+                    }
+                    .i2{
+                        background-position: -48px 0;
+                    }
+                    .i3{
+                        background-position: -72px 0;
+                    }
+                    .i4{
+                        background-position: -96px 0;
+                    }
+                    .i5{
+                        background-position: -120px 0;
+                    }
+                    .i6{
+                        background-position: -168px 0;
+                    }
+                    .i7{
+                        background-position: -192px 0;
+                    }
+                }
+            }
+        }
+    }
+    .Ynav_title:hover{
+        ul{
+            display:block;
+        }
+    }
+}
+.Ymain{
+    .container{
+        ul{
+            margin-top: 30px;
+            li{
+                float:left;
+                a{
+                    display:block;
+                    width: 290px;
+                    height: 290px;
+                    margin: 0 0 10px 10px;
+                    position:relative;
+                    p{
+                        width: 270px;
+                        height: 57px;
+                        line-height: 25px;
+                        color:#575757;
+                        text-align:center;
+                        background: rgba(255, 255, 255, 0.9);
+                        position:absolute;
+                        left:10px;
+                        bottom:15px;
+                        b{
+                            font-size:22px;
+                            display:block;
+                            padding-top: 3px;
+                        }
+                    }
+                }
+            }
+        }
+        .floor{
+            margin-top: 18px;
+            .floor_title{
+                height: 32px;
+                line-height: 32px;
+                margin-bottom: 5px;
+                overflow: hidden;
+                h3{
+                    width: 130px;
+                    height: 32px;
+                    font-size:18px;
+                    font-weight:bold;
+                    float:left;
+                    a{
+                        color:#fc5f3c;
+                        i{
+                            display:inline-block;
+                            width: 31px;
+                            height: 18px;
+                            padding: 10px 7px 4px 7px;
+                            color:#fff;
+                            line-height: 18px;
+                            margin-right: 10px;
+                            background: url('../images/index/floor.png') no-repeat;
+                        }
+                    }
+                    .a2{
+                        color:#007f4d;
+                        i{
+                            background-position: -46px 0;
+                        }
+                    }
+                    .a3{
+                        color:#45c6ce;
+                        i{
+                            background-position: -184px 0;
+                        }
+                    }
+                    .a4{
+                        color:#f0c000;
+                        i{
+                            background-position: -92px 0;
+                        }
+                    }
+                    .a5{
+                        color:#e08683;
+                        i{
+                            background-position: -138px 0;
+                        }
+                    }
+                    .a6{
+                        color:#3ca3dc;
+                        i{
+                            background-position: -531px 0;
+                        }
+                    }
+                }
+                .keyword{
+                    float:right;
+                }
+            }
+        }
+    }
+}
