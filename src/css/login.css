@@ -1,0 +1,161 @@
+.Yheader {
+  background: #e0e0e0;
+}
+
+.Yheader .container {
+  padding: 15px 0 5px;
+}
+
+.Yheader .container .logo {
+  width: 195px;
+  margin-right: 10px;
+  float: left;
+}
+
+.Yheader .container .logo a {
+  display: block;
+  width: 145px;
+  height: 50px;
+  background: url("../images/head/logo.png") no-repeat;
+}
+
+.Yheader .container p {
+  font-size: 28px;
+  color: #008842;
+  float: left;
+  padding-left: 25px;
+}
+
+.Ymain {
+  padding-top: 30px;
+  background: #fff;
+}
+
+.Ymain .container .Ymain_left a img {
+  display: block;
+  width: 666px;
+  height: 418px;
+  margin-top: 20px;
+}
+
+.Ymain .container .Ymain_right {
+  width: 350px;
+  height: 431px;
+  margin-right: 105px;
+  margin-top: 20px;
+  border: 1px solid #e3e6e0;
+}
+
+.Ymain .container .Ymain_right .login-main {
+  width: 308px;
+  padding: 30px 20px 20px;
+}
+
+.Ymain .container .Ymain_right .login-main p {
+  color: #878787;
+  margin-bottom: 20px;
+  position: relative;
+}
+
+.Ymain .container .Ymain_right .login-main p strong {
+  font-size: 18px;
+  color: #262626;
+}
+
+.Ymain .container .Ymain_right .login-main p span {
+  position: absolute;
+  top: 0;
+  right: 0;
+}
+
+.Ymain .container .Ymain_right .login-main p span .green {
+  text-decoration: underline;
+  color: green;
+}
+
+.Ymain .container .Ymain_right .login-main p .input-phone-icon {
+  display: inline-block;
+  width: 40px;
+  height: 38px;
+  left: 1px;
+  top: 1px;
+}
+
+.Ymain .container .Ymain_right .login-main p input {
+  padding-left: 50px;
+  width: 254px;
+  height: 38px;
+  font-size: 14px;
+  vertical-align: middle;
+  background: url("../images/head/bg_input.png") no-repeat 0 -120px;
+  border: 1px solid #c1c1c1;
+}
+
+.Ymain .container .Ymain_right .login-main p .input-key-icon {
+  display: inline-block;
+  width: 40px;
+  height: 38px;
+  left: 1px;
+  top: 1px;
+}
+
+.Ymain .container .Ymain_right .login-main p #password {
+  background-position: 0 -180px;
+}
+
+.Ymain .container .Ymain_right .login-main p .VerifyCode {
+  width: 100px;
+  background-position: 0 -180px;
+}
+
+.Ymain .container .Ymain_right .login-main p .code_v {
+  display: inline-block;
+  vertical-align: middle;
+  width: 46px;
+  height: 25px;
+  line-height: 25px;
+  text-align: center;
+  border: 1px solid #ddd;
+}
+
+.Ymain .container .Ymain_right .login-main p #check {
+  padding-left: 0;
+  width: 14px;
+  height: 14px;
+  padding-right: 9px;
+}
+
+.Ymain .container .Ymain_right .login-main p .btn_login {
+  display: block;
+  width: 306px;
+  height: 50px;
+  line-height: 50px;
+  color: #fff;
+  font-size: 18px;
+  text-align: center;
+  background: #008842;
+}
+
+.Ymain .container .Ymain_right .login-main .p-code-btn a i {
+  display: inline-block;
+  width: 88px;
+  height: 20px;
+  margin-right: 18px;
+  background: url("../images/head/bg_login.png") no-repeat -60px -200px;
+}
+
+.Ymain .container .Ymain_right .login-main .p-code-btn a .i2 {
+  background-position: -160px -200px;
+}
+
+.Ymain .container .Ymain_right .login-main .p-code-btn a .i3 {
+  margin-right: 0;
+  background-position: -260px -200px;
+}
+
+.di {
+  width: 100%;
+  height: 30px;
+  background: #f7f8f8;
+  border-bottom: 1px solid #e0e0e0;
+}

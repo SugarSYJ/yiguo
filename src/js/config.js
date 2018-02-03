@@ -10,6 +10,7 @@ require.config({
 		gdszoom:['jquery'],
 		carousel:['jquery'],
 		head:['jquery'],
-		foot:['jquery']
+		foot:['jquery'],
+		common:['jquery']
 	}
 });
