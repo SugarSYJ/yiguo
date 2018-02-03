@@ -1,0 +1,136 @@
+.Yheader {
+  background: #e0e0e0;
+}
+
+.Yheader .container {
+  padding: 15px 0 5px;
+}
+
+.Yheader .container .logo {
+  width: 195px;
+  margin-right: 10px;
+  float: left;
+}
+
+.Yheader .container .logo a {
+  display: block;
+  width: 145px;
+  height: 50px;
+  background: url("../images/head/logo.png") no-repeat;
+}
+
+.Yheader .container p {
+  font-size: 28px;
+  color: #008842;
+  float: left;
+  padding-left: 25px;
+}
+
+.Ymain {
+  padding: 54px 0 35px;
+  border-bottom: 1px solid #e0e0e0;
+}
+
+.Ymain .container .tab-content {
+  position: relative;
+  padding: 40px 0 50px;
+  background: #fff;
+  border: 1px solid #c4dfb1;
+}
+
+.Ymain .container .tab-content .tab_left {
+  width: 570px;
+  height: 540px;
+}
+
+.Ymain .container .tab-content .tab_left p {
+  margin-bottom: 29px;
+}
+
+.Ymain .container .tab-content .tab_left p .field-name {
+  width: 220px;
+  display: inline-block;
+  padding-right: 20px;
+  text-align: right;
+}
+
+.Ymain .container .tab-content .tab_left p input {
+  display: inline-block;
+  border: 1px solid #c1c1c1;
+  height: 38px;
+  width: 290px;
+  vertical-align: middle;
+  padding-left: 14px;
+  font-size: 14px;
+}
+
+.Ymain .container .tab-content .tab_left p #code {
+  width: 147px;
+  margin-right: 20px;
+}
+
+.Ymain .container .tab-content .tab_left p .code_v {
+  display: inline-block;
+  vertical-align: middle;
+  width: 46px;
+  height: 25px;
+  border: 1px solid #ddd;
+}
+
+.Ymain .container .tab-content .tab_left p #phone_code {
+  width: 147px;
+  margin-right: 20px;
+}
+
+.Ymain .container .tab-content .tab_left p #Phone_SendCode {
+  display: inline-block;
+  width: 121px;
+  height: 38px;
+  color: #008842;
+  text-align: center;
+  line-height: 38px;
+  border: 1px solid #c1c1c1;
+  background: #f7f7f7;
+}
+
+.Ymain .container .tab-content .tab_left p label #checked {
+  display: inline-block;
+  width: 14px;
+  height: 14px;
+  margin-right: 9px;
+}
+
+.Ymain .container .tab-content .tab_left p label a {
+  color: #008842;
+}
+
+.Ymain .container .tab-content .tab_left p .btn-reg {
+  display: inline-block;
+  width: 306px;
+  height: 50px;
+  line-height: 50px;
+  font-size: 18px;
+  font-weight: bold;
+  color: #fff;
+  text-align: center;
+  background: #008842;
+}
+
+.Ymain .container .tab-content .tab_right {
+  width: 327px;
+  height: 339px;
+  position: absolute;
+  top: 100px;
+  right: 135px;
+}
+
+.Ymain .container .tab-content .ziti {
+  position: absolute;
+  top: -27px;
+  right: 33px;
+}
+
+.Ymain .container .tab-content .ziti a {
+  color: #ef760a;
+  text-decoration: underline;
+}

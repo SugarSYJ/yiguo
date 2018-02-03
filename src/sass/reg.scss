@@ -1,0 +1,120 @@
+.Yheader{
+    background: #e0e0e0;
+    .container{
+        padding: 15px 0 5px;
+        .logo{
+            width: 195px;
+            margin-right: 10px;
+            float:left;
+            a{
+                display:block;
+                width: 145px;
+                height: 50px;
+                background: url('../images/head/logo.png') no-repeat;
+            }
+        }
+        p{
+            font-size:28px;
+            color:#008842;
+            float:left;
+            padding-left: 25px;
+        }
+    }
+}
+.Ymain{
+    padding: 54px 0 35px;
+    border-bottom:1px solid #e0e0e0;
+    .container{
+        .tab-content{
+            position:relative;
+            padding: 40px 0 50px;
+            background: #fff;
+            border:1px solid #c4dfb1;
+            .tab_left{
+                width: 570px;
+                height: 540px;
+                p{
+                    margin-bottom: 29px;
+                    .field-name{
+                        width: 220px;
+                        display:inline-block;
+                        padding-right: 20px;
+                        text-align:right;
+                    }
+                    input{
+                        display:inline-block;
+                        border:1px solid #c1c1c1;
+                        height: 38px;
+                        width: 290px;
+                        vertical-align:middle;
+                        padding-left: 14px;
+                        font-size:14px;
+                    }
+                    #code{
+                        width: 147px;
+                        margin-right: 20px;
+                    }
+                    .code_v{
+                        display:inline-block;
+                        vertical-align:middle;
+                        width: 46px;
+                        height:25px;
+                        border:1px solid #ddd;
+                    }
+                    #phone_code{
+                        width: 147px;
+                        margin-right: 20px;
+                    }
+                    #Phone_SendCode{
+                        display:inline-block;
+                        width: 121px;
+                        height: 38px;
+                        color:#008842;
+                        text-align:center;
+                        line-height: 38px;
+                        border:1px solid #c1c1c1;
+                        background: #f7f7f7;
+                    }
+                    label{
+                        #checked{
+                            display:inline-block;
+                            width: 14px;
+                            height: 14px;
+                            margin-right: 9px;
+                        }
+                        a{
+                            color:#008842;
+                        }
+                    }
+                    .btn-reg{
+                        display:inline-block;
+                        width: 306px;
+                        height: 50px;
+                        line-height: 50px;
+                        font-size:18px;
+                        font-weight:bold;
+                        color:#fff;
+                        text-align:center;
+                        background: #008842;
+                    }
+                }
+            }
+            .tab_right{
+                width: 327px;
+                height: 339px;
+                position:absolute;
+                top:100px;
+                right:135px;
+            }
+            .ziti{
+                position:absolute;
+                top:-27px;
+                right:33px;
+                a{
+                    color:#ef760a;
+                    text-decoration:underline;
+                }
+            }
+        }
+    }
+}

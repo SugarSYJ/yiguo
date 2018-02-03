@@ -1,0 +1,179 @@
+.Yhead{
+    .Yhead_t{
+        background: #f7f9f8;
+        .container{
+            .fl{
+                p{
+                    line-height: 30px;
+                    margin-right: 10px;
+                    position:relative;
+                    float:left;
+                    i{
+                        display:block;
+                        width: 8px;
+                        height: 10px;
+                        background: url('../images/head/1.png') no-repeat -20px -8px;
+                        position:absolute;
+                        right:-12px;
+                        top:13px;
+                    }
+                }
+            }
+            ul{
+                float:right;
+                li{
+                    line-height: 30px;
+                    padding: 0 10px;
+                    text-align:center;
+                    float:left;
+                    position:relative;
+                    a{
+                        display:block;
+                        i{
+                            display:block;
+                            width: 8px;
+                            height: 10px;
+                            background: url('../images/head/1.png') no-repeat -20px -8px;
+                            position:absolute;
+                            right:0px;
+                            top:13px;
+                        }
+                        s{
+                            display:block;
+                            float:left;
+                            width: 18px;
+                            height: 18px;
+                            margin-top: 6px;
+                            margin-right: 5px;
+                            background:url('../images/head/header-img.png') no-repeat -40px 0;
+                        }
+                        .a2{
+                            background-position: -64px 0;
+                        }
+                        .a3{
+                            background-position: -147px 0;
+                        }
+                        .a4{
+                            background-position: -86px 0;
+                        }
+                    }
+                    .con{
+                        display:none;
+                        width: 100px;
+                        padding: 5px 12px;
+                        text-align:left;
+                        position:absolute;
+                        left:-1px;
+                        top:30px;
+                        border:1px solid #b4c1a3;
+                        a{
+                            display:block;
+                            line-height: 25px;
+                            color:#727272;
+                        }
+                    }
+                    .con1{
+                        display:none;
+                        width: 125px;
+                        padding: 10px;
+                        line-height: 25px;
+                        position:absolute;
+                        left:-1px;
+                        top:30px;
+                        border:1px solid #b4c1a3;
+                        .item{
+                            margin: 5px 0;
+                        }
+                    }
+                }
+                .li1:hover{
+                    margin: -1px -1px 0;
+                    border:1px solid #b4c1a3;
+                    border-bottom: 1px solid #fff;
+                    .con,.con1{
+                        z-index:-1;
+                        display:block;
+                    }
+                    i{
+                        background-position:-20px 2px;
+                    }
+                }
+            }
+        }
+    }
+    .Yhead_b{
+        background: #e0e0e0;
+        .container{
+            height: 58px;
+            padding: 15px 0 5px;
+            .logo{
+                width: 280px;
+                margin-right: 10px;
+                float:left;
+                a{
+                    display:block;
+                    width: 145px;
+                    height: 50px;
+                    background: url('../images/head/logo.png') no-repeat;
+                }
+            }
+            .search{
+                float:left;
+                width: 528px;
+                .search-bar{
+                    .search-input{
+                        display:block;
+                        width: 425px;
+                        height: 26px;
+                        float:left;
+                        padding: 0 10px;
+                        line-height: 26px;
+                        border:1px solid #008842;
+                        background: #e0e0e0;
+                    }
+                    .search-btn{
+                        display:block;
+                        width: 81px;
+                        height: 28px;
+                        padding: 0;
+                        border:none;
+                        float:left;
+                        font-size:14px;
+                        color:#fff;
+                        background: #008842;
+                        cursor:pointer;
+                    }
+                }
+                .search-keywords{
+                    line-height: 30px;
+                    a{
+                        margin-right: 5px;
+                        color:#727272;
+                        display:inline-block;
+                    }
+                    .hot{
+                        color:#008842;
+                    }
+                }
+            }
+            .shopping-cart{
+                float:right;
+                width: 170px;
+                height: 28px;
+                font-weight:bold;
+                color:red;
+                padding: 6px 0;
+                background: #fff;
+                border:1px solid #008842;
+                span{
+                    display:inline-block;
+                    width: 28px;
+                    height: 20px;
+                    text-align:center;
+                    margin: 5px 0 0 24px;
+                    background: url('../images/head/header-img.png') no-repeat -112px 0;
+                }
+            }
+        }
+    }
+}
