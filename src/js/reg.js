@@ -35,7 +35,22 @@
                 alert('请勾选我已阅读并同意');
                 return false;
             }
-            location.href = '../html/login.html';
-        })
+            $.ajax({
+                url:'../api/reg.php',
+                data:{
+                    phone:$('#phone').val(),
+                    password:$('#password').val()
+                },
+                success:function(data){
+                    if(data === 'fail'){
+                        alert('此号码已被注册，请换一个注册');
+                    }else{
+                        alert('注册成功')
+                    }
+                    console.log(data);
+                }
+            })
+            // location.href = '../html/login.html';
+        });
     });
 });

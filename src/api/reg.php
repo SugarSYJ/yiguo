@@ -1,17 +1,17 @@
 <?php
 	include 'connect.php';
 
-	$username = isset($_GET['username']) ? $_GET['username'] : '';
+	$tel = isset($_GET['phone']) ? $_GET['phone'] : '';
 	$password = isset($_GET['password']) ? $_GET['password'] : '';
 	// 查看用户名是否存在
-	$sql = "select username from user where username='$username'";
+	$sql = "select tel from user where tel='$tel'";
 	$result = $conn->query($sql);
 	if($result->num_rows>0){
 		echo "fail";
 	}else{
 		// 密码md5加密
 		$password = md5($password);
-		$sql = "insert into user (username,password) values('$username','$password')";
+		$sql = "insert into user (tel,password) values('$tel','$password')";
 		// 获取查询结果
 		$result = $conn->query($sql);
 		if($result){

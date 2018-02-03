@@ -10,6 +10,21 @@
                 alert('验证码不正确');
                 return false;
             }
+            $.ajax({
+                url:'../api/login.php',
+                data:{
+                    phone:$('#username').val(),
+                    password:$('#password').val(),
+                },
+                success:function(data){
+                    if(data === 'ok'){
+                        alert('登录成功');
+                    }else{
+                        alert('账号密码不正确');
+                    }
+                    console.log(data);
+                }
+            })
         })
     });
 });
