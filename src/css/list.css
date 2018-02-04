@@ -1,0 +1,239 @@
+.Ymain .container .Ynav_title {
+  width: 180px;
+  height: 38px;
+  font-size: 16px;
+  color: #fff;
+  text-align: center;
+  line-height: 38px;
+  background: #008842;
+  position: absolute;
+  left: 111px;
+  top: 108px;
+}
+
+.Ymain .container .Ynav_title ul {
+  display: none;
+  height: 462px;
+  background: rgba(255, 255, 255, 0.9);
+}
+
+.Ymain .container .Ynav_title ul li a {
+  display: block;
+  width: 180px;
+  height: 42px;
+  position: relative;
+}
+
+.Ymain .container .Ynav_title ul li a i {
+  display: inline-block;
+  width: 24px;
+  height: 24px;
+  position: absolute;
+  left: 20px;
+  top: 7px;
+  background: url("../images/index/nav-icon.png") no-repeat -24px 0;
+}
+
+.Ymain .container .Ynav_title ul li a .i2 {
+  background-position: -48px 0;
+}
+
+.Ymain .container .Ynav_title ul li a .i3 {
+  background-position: -72px 0;
+}
+
+.Ymain .container .Ynav_title ul li a .i4 {
+  background-position: -96px 0;
+}
+
+.Ymain .container .Ynav_title ul li a .i5 {
+  background-position: -120px 0;
+}
+
+.Ymain .container .Ynav_title ul li a .i6 {
+  background-position: -168px 0;
+}
+
+.Ymain .container .Ynav_title ul li a .i7 {
+  background-position: -192px 0;
+}
+
+.Ymain .container .Ynav_title:hover ul {
+  display: block;
+}
+
+.Ymain .container ul {
+  margin-left: 180px;
+  overflow: hidden;
+}
+
+.Ymain .container ul li {
+  float: left;
+}
+
+.Ymain .container ul li a {
+  display: block;
+  width: 115px;
+  height: 38px;
+  line-height: 38px;
+  text-align: center;
+  font-size: 15px;
+  font-weight: bold;
+}
+
+.Ymain .container .page_ad .page_ad_1 {
+  display: block;
+  width: 100%;
+  height: 300px;
+  margin-bottom: 10px;
+}
+
+.Ymain .container .page_ad .page_ad_2 a {
+  margin-right: 4px;
+  margin-top: 0;
+}
+
+.Ymain .container .select {
+  margin: 20px 0;
+  background: #eaeaea;
+}
+
+.Ymain .container .select .all {
+  border: 1px solid #c7c7c7;
+  border-right-color: #e5e5e5;
+}
+
+.Ymain .container .select .all .tit {
+  width: 78px;
+  padding: 5px 0 5px 20px;
+  color: #909090;
+  background: #ccc;
+  float: left;
+}
+
+.Ymain .container .select .all p {
+  line-height: 25px;
+  float: left;
+}
+
+.Ymain .container .select .all p a {
+  padding: 0 15px;
+}
+
+.Ymain .container .select .select_list {
+  border: 1px solid #e5e5e5;
+  border-top: none;
+  border-bottom-color: #c7c7c7;
+}
+
+.Ymain .container .select .select_list .tit {
+  width: 78px;
+  padding: 5px 0 5px 20px;
+  color: #909090;
+  background: #ddd;
+  float: left;
+}
+
+.Ymain .container .select .select_list p {
+  line-height: 25px;
+  float: left;
+}
+
+.Ymain .container .select .select_list p a {
+  padding: 0 15px;
+}
+
+.Ymain .container .filter {
+  padding: 5px 10px;
+  background: #eaeaea;
+}
+
+.Ymain .container .filter .filter_sort a {
+  display: inline-block;
+  height: 18px;
+  line-height: 18px;
+  border: 1px solid #c7c7c7;
+  padding: 5px 10px;
+  margin-left: -1px;
+  background: #fff;
+}
+
+.Ymain .container .filter .filter_sort .on {
+  background: #eee;
+}
+
+.Ymain .container .goods_list ul {
+  margin-left: 0;
+}
+
+.Ymain .container .goods_list ul li {
+  width: 290px;
+  margin: 15px 0 0 10px;
+  background: #fff;
+  float: left;
+}
+
+.Ymain .container .goods_list ul li img {
+  display: block;
+  width: 290px;
+  height: 290px;
+  cursor: pointer;
+}
+
+.Ymain .container .goods_list ul li .p_info {
+  padding: 10px;
+  height: 48px;
+}
+
+.Ymain .container .goods_list ul li .p_info .p_name {
+  height: 16px;
+  line-height: 16px;
+  margin-bottom: 10px;
+}
+
+.Ymain .container .goods_list ul li .p_info .p_price {
+  height: 22px;
+  white-space: nowrap;
+  overflow: hidden;
+  text-overflow: ellipsis;
+}
+
+.Ymain .container .goods_list ul li .p_info .p_price .price {
+  font-size: 18px;
+  font-weight: bold;
+  color: #e7380d;
+}
+
+.Ymain .container .goods_list ul li .p_info .p_price .saletip {
+  color: #e8340c;
+  margin-left: 10px;
+}
+
+.Ymain .container .goods_list ul li .p_info .p_price .saletip b {
+  font-weight: 100;
+  color: #fff;
+  background: #e8340c;
+  padding: 3px 5px;
+  margin-right: 5px;
+  border-radius: 2px;
+}
+
+.Ymain .container .page {
+  width: 100px;
+  margin: 0 auto;
+}
+
+.Ymain .container .page span {
+  display: inline-block;
+  margin: 5px;
+  width: 40px;
+  line-height: 1.8;
+  text-align: center;
+  background-color: #dfdfdf;
+  color: #666;
+}
+
+.Ymain .container .page .active {
+  background-color: #fc0;
+  color: #fff;
+}

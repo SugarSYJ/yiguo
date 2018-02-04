@@ -8,5 +8,16 @@
             width:1423,
             height:500
         });
+        // $.post('../api/index.php',function(data){
+        //     console.log(11);
+        //     console.log(data);
+        // },"json");
+        $.ajax({
+            type:'GET',
+            url:'../api/list.php',
+            success:function(data){
+                console.log(data);
+            }
+        });
     });
 });
