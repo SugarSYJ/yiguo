@@ -238,6 +238,10 @@
   line-height: 43px;
 }
 
+.Ymain .container .content .content_right .summary-other .left .pro-amount .dd {
+  position: relative;
+}
+
 .Ymain .container .content .content_right .summary-other .left .pro-amount .dd .spinner {
   width: 76px;
   position: relative;
@@ -283,6 +287,9 @@
   margin-left: 10px;
   background: #008842;
   cursor: pointer;
+  position: absolute;
+  left: 100px;
+  top: 0px;
 }
 
 .Ymain .container .content .content_right .summary-other .left .pro-amount .dd .addcart i {

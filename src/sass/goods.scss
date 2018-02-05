@@ -196,6 +196,7 @@
                                 line-height: 43px;
                             }
                             .dd{
+                                position:relative;
                                 .spinner{
                                     width: 76px;
                                     position:relative;
@@ -237,6 +238,9 @@
                                     margin-left: 10px;
                                     background: #008842;
                                     cursor:pointer;
+                                    position:absolute;
+                                    left:100px;
+                                    top:0px;
                                     i{
                                         display:inline-block;
                                         width: 28px;
