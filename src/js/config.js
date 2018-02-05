@@ -3,7 +3,8 @@ require.config({
 	paths:{
 		'jquery':'../lib/jquery-3.2.1',
 		'carousel':'../lib/jquery-yjCarousel/jquery.yjCarousel',
-		'gdszoom':'../lib/jquery-gdsZoom/jquery.gdsZoom'
+		'gdszoom':'../lib/jquery-gdsZoom/jquery.gdsZoom',
+		'jqzoom':'../lib/fangdajing/jqzoom'
 	},
 	shim:{
 		// 设置依赖
@@ -11,6 +12,7 @@ require.config({
 		carousel:['jquery'],
 		head:['jquery'],
 		foot:['jquery'],
-		common:['jquery']
+		common:['jquery'],
+		jqzoom:['jquery']
 	}
 });

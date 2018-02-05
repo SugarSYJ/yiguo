@@ -15,6 +15,9 @@
   display: none;
   height: 462px;
   background: rgba(255, 255, 255, 0.9);
+  position: absolute;
+  left: -180px;
+  top: 38px;
 }
 
 .Ymain .container .Ynav_title ul li a {
@@ -62,19 +65,20 @@
   display: block;
 }
 
-.Ymain .container ul {
-  margin-left: 180px;
+.Ymain .container > ul {
+  margin-left: 179px;
   overflow: hidden;
+  border-bottom: 1px solid #008842;
 }
 
-.Ymain .container ul li {
+.Ymain .container > ul li {
   float: left;
 }
 
-.Ymain .container ul li a {
+.Ymain .container > ul li a {
   display: block;
   width: 115px;
-  height: 38px;
+  height: 37px;
   line-height: 38px;
   text-align: center;
   font-size: 15px;
