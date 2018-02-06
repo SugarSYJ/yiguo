@@ -179,7 +179,7 @@
   color: #008842;
 }
 
-.Yhead .Yhead_b .container .shopping-cart {
+.Yhead .Yhead_b .container .shopping_cart {
   float: right;
   width: 170px;
   height: 28px;
@@ -188,9 +188,10 @@
   padding: 6px 0;
   background: #fff;
   border: 1px solid #008842;
+  cursor: pointer;
 }
 
-.Yhead .Yhead_b .container .shopping-cart span {
+.Yhead .Yhead_b .container .shopping_cart span {
   display: inline-block;
   width: 28px;
   height: 20px;

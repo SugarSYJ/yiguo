@@ -58,6 +58,7 @@
                 $('#p_number').val(1);
             }
         });
+        // 加入购物车
         var $addcart = $('.addcart');
         $addcart.on('click',function(){
             for(var i=0;i<data.length;i++){
@@ -83,7 +84,7 @@
             document.cookie = 'data=' + JSON.stringify(data) + ';expires=' + now.toUTCString();
             // console.log(document.cookie); 
             // 飞入购物车
-            var $shopping_cart = $('.shopping-cart');
+            var $shopping_cart = $('.shopping_cart');
             var $tu1 = $('.tu1');
             var $copy = $tu1.clone();
             $copy.css({

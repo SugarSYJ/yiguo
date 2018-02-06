@@ -156,7 +156,7 @@
                     }
                 }
             }
-            .shopping-cart{
+            .shopping_cart{
                 float:right;
                 width: 170px;
                 height: 28px;
@@ -165,6 +165,7 @@
                 padding: 6px 0;
                 background: #fff;
                 border:1px solid #008842;
+                cursor:pointer;
                 span{
                     display:inline-block;
                     width: 28px;
