@@ -66,6 +66,7 @@
         ul{
             margin-top: 30px;
             li{
+                cursor:pointer;
                 float:left;
                 a{
                     display:block;
@@ -151,6 +152,40 @@
                 }
                 .keyword{
                     float:right;
+                }
+            }
+            .floor_con{
+                overflow: hidden;
+                img{
+                    float:left;
+                    margin-left: -1px;
+                    border:1px solid #d5d5d5;
+                    cursor:pointer;
+                }
+                img:nth-child(1){
+                    border-top:none;
+                    border-left:none;
+                    border-bottom:none;
+                }
+            }
+            .cont{
+                position:relative;
+                img:nth-child(6){
+                    position:absolute;
+                    left:510px;
+                    top:192px;
+                }
+                img:nth-child(7){
+                    position:absolute;
+                    left:731px;
+                    top:192px;
+                }
+                img:nth-child(8){
+                    width: 676px;
+                    height: 77px;
+                    position:absolute;
+                    left:275px;
+                    top:384px;
                 }
             }
         }

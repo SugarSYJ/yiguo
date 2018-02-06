@@ -48,8 +48,8 @@
                     var id = $(this).attr('data-id');
                     // console.log(id);
                     var params = '?';
-                    // console.log(_data.data);
-                    _data.data.map(function(item){
+                    // console.log(data.data);
+                    data.data.map(function(item){
                         if(item.id == id){
                             for(var attr in item){
                                 params += attr + '=' + item[attr] + '&';
@@ -60,6 +60,7 @@
                             location.href = '../html/goods.html' + encodeURI(params);
                         }
                     });
+            
                 });
             };
             arr(data);
@@ -71,6 +72,27 @@
                     arr(data);
                 },"json");
             });
+            // 价格排序
+            $('.price_x').on('click',function(){
+                sort();
+                arr(data);
+            });
+            $('.price_b').on('click',function(){
+                sort().reverse();
+                arr(data);
+            });
+            function sort(){
+                for(var i=0;i<data.data.length;i++){
+                    for(var j=0;j<data.data.length-i-1;j++){
+                        if(data.data[j].price > data.data[j+1].price){
+                            var res =data.data[j];
+                            data.data[j] = data.data[j+1];
+                            data.data[j+1] = res;
+                        }
+                    }
+                }
+                return data.data;
+            };
         },"json");
     });
 });

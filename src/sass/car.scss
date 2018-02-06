@@ -199,6 +199,7 @@
                     span{
                         margin-left: 20px;
                         color:#444;
+                        cursor:pointer;
                     }
                 }
                 .cart_footer_r{
@@ -213,6 +214,9 @@
                             font-size:18px;
                             color:#ff5317;
                             margin: 0 5px;
+                            .tot{
+                                margin: 0;
+                            }
                         }
                     }
                     .btn{
@@ -222,9 +226,35 @@
                         color:#fff;
                         background: #ff5317;
                         margin: 0;
+                        cursor:pointer;
                     }
                 }
             }
+        }
+    }
+    .cart_none{
+        display:none;
+        width: 1200px;
+        height: 422px;
+        margin: 0 auto;
+        background: #fff;
+        line-height: 30px;
+        border: 1px solid #e3e6e0;
+        padding: 70px 0;
+        p{
+            // height: 200px;
+            font-size:14px;
+            text-align:center;
+            a{
+                padding-left: 15px;
+                color:#008842;
+            }
+        }
+        div{
+            margin: 50px auto 0;
+            width: 327px;
+            height: 200px;
+            background:url('../images/head/none.jpg') no-repeat; 
         }
     }
 }

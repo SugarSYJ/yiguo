@@ -145,6 +145,16 @@
                     margin-left: -1px;
                     background: #fff;
                 }
+                span{
+                    display:inline-block;
+                    height: 18px;
+                    line-height: 18px;
+                    border:1px solid #c7c7c7;
+                    padding: 5px 10px;
+                    margin-left: -1px;
+                    background: #fff;
+                    cursor:pointer;
+                }
                 .on{
                     background:#eee;
                 }
@@ -210,6 +220,7 @@
                 text-align: center;
                 background-color:#dfdfdf;
                 color:#666;
+                cursor:pointer;
             }
             .active{
                 background-color:#fc0;

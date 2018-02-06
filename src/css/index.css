@@ -75,6 +75,7 @@
 }
 
 .Ymain .container ul li {
+  cursor: pointer;
   float: left;
 }
 
@@ -180,4 +181,45 @@
 
 .Ymain .container .floor .floor_title .keyword {
   float: right;
+}
+
+.Ymain .container .floor .floor_con {
+  overflow: hidden;
+}
+
+.Ymain .container .floor .floor_con img {
+  float: left;
+  margin-left: -1px;
+  border: 1px solid #d5d5d5;
+  cursor: pointer;
+}
+
+.Ymain .container .floor .floor_con img:nth-child(1) {
+  border-top: none;
+  border-left: none;
+  border-bottom: none;
+}
+
+.Ymain .container .floor .cont {
+  position: relative;
+}
+
+.Ymain .container .floor .cont img:nth-child(6) {
+  position: absolute;
+  left: 510px;
+  top: 192px;
+}
+
+.Ymain .container .floor .cont img:nth-child(7) {
+  position: absolute;
+  left: 731px;
+  top: 192px;
+}
+
+.Ymain .container .floor .cont img:nth-child(8) {
+  width: 676px;
+  height: 77px;
+  position: absolute;
+  left: 275px;
+  top: 384px;
 }

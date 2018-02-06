@@ -235,6 +235,7 @@
 .Ymain .container .cart .cart_footer .cart_footer_l span {
   margin-left: 20px;
   color: #444;
+  cursor: pointer;
 }
 
 .Ymain .container .cart .cart_footer .cart_footer_r {
@@ -256,6 +257,10 @@
   margin: 0 5px;
 }
 
+.Ymain .container .cart .cart_footer .cart_footer_r span b .tot {
+  margin: 0;
+}
+
 .Ymain .container .cart .cart_footer .cart_footer_r .btn {
   display: inline-block;
   padding: 10px 20px;
@@ -263,4 +268,33 @@
   color: #fff;
   background: #ff5317;
   margin: 0;
+  cursor: pointer;
+}
+
+.Ymain .cart_none {
+  display: none;
+  width: 1200px;
+  height: 422px;
+  margin: 0 auto;
+  background: #fff;
+  line-height: 30px;
+  border: 1px solid #e3e6e0;
+  padding: 70px 0;
+}
+
+.Ymain .cart_none p {
+  font-size: 14px;
+  text-align: center;
+}
+
+.Ymain .cart_none p a {
+  padding-left: 15px;
+  color: #008842;
+}
+
+.Ymain .cart_none div {
+  margin: 50px auto 0;
+  width: 327px;
+  height: 200px;
+  background: url("../images/head/none.jpg") no-repeat;
 }
