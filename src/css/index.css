@@ -20,9 +20,12 @@
 }
 
 .Ynav .Ynav_title ul {
-  display: none;
   height: 462px;
   background: rgba(255, 255, 255, 0.9);
+}
+
+.Ynav .Ynav_title ul li {
+  position: relative;
 }
 
 .Ynav .Ynav_title ul li a {
@@ -66,7 +69,39 @@
   background-position: -192px 0;
 }
 
-.Ynav .Ynav_title:hover ul {
+.Ynav .Ynav_title ul li ul {
+  display: none;
+  width: 215px;
+  height: 464px;
+  padding: 17px 20px;
+  border: 1px solid #bbb;
+  margin-left: -1px;
+  background: rgba(255, 255, 255, 0.9);
+  position: absolute;
+  left: 180px;
+  top: 0;
+}
+
+.Ynav .Ynav_title ul li ul h4 {
+  font-size: 18px;
+  margin-bottom: 10px;
+  text-decoration: underline;
+  color: #20985a;
+}
+
+.Ynav .Ynav_title ul li ul li {
+  float: left;
+  line-height: 25px;
+  margin-right: 30px;
+  color: #686868;
+  cursor: pointer;
+}
+
+.Ynav .Ynav_title ul > li:hover {
+  border-left: 1px solid #f60f60;
+}
+
+.Ynav .Ynav_title ul > li:hover > ul {
   display: block;
 }
 

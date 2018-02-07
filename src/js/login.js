@@ -1,5 +1,5 @@
 ;require(['config'],function(){
-    require(['jquery','foot','common'],function(){
+    require(['jquery','headFoot','common'],function(){
         $('.Yfooter').load('../html/foot.html',function(){
             $('.Yfoot_service').hide();
         });
@@ -19,10 +19,15 @@
                 success:function(data){
                     if(data === 'ok'){
                         alert('登录成功');
+                        var caibin = $('#username').val();
+                        localStorage.setItem("phone",caibin);
+                        // console.log(localStorage.getItem("phone"));
+                        location.href = '../index.html';
                     }else{
                         alert('账号密码不正确');
+                        return false;
                     }
-                    console.log(data);
+                    // console.log(data);
                 }
             })
         })

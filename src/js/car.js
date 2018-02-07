@@ -1,5 +1,5 @@
 ;require(['config'],function(){
-    require(['jquery','head','foot','common'],function(){
+    require(['jquery','headFoot','common'],function(){
         $('.Yheader').load('../html/head.html',function(){
             $('.fl p').first().siblings().hide();
             $('.Yhead_b').hide();
@@ -120,7 +120,7 @@
         function cook(){
             var now = new Date();
             now.setDate(now.getDate()+3);
-            document.cookie = 'data=' + JSON.stringify(data) + ';expries=' + now.toUTCString();
+            document.cookie = 'data=' + JSON.stringify(data) + ';expires=' + now.toUTCString();
         };
         // 全选
         var $c = $('.c');
@@ -141,22 +141,15 @@
         // 删除选中的商品
         $('.cart_footer').on('click','.clear',function(){
             var $checked = $c.filter(':checked');
-            var id = $checked.closest('li').attr('data-id');
-            for(var i=0;i<data.length;i++){
-                if(data[i].id===id){
-                    data.splice(i,1);
-                    break;
-                }
-            }
             $checked.closest('li').remove();
-            total2 = 0;
-            cook();
-            // show();
             none();
         })
         // 清空购物车
         .on('click','.clearAll',function(){
             $('.cart_list').find('li').remove();
+            var now = new Date();
+            now.setDate(now.getDate()-100);
+            document.cookie = 'data=' + JSON.stringify(data) + ';expires=' + now.toUTCString();
             none();
         })
         none();
@@ -166,6 +159,25 @@
                 $('.main')[0].style.display = 'none';
                 $('.cart_none')[0].style.display = 'block';
             }
-        }
+        };
+        $('.zhe').hide();
+        $('.zhe i').on('click',function(){
+            var now = new Date();
+            now.setDate(now.getDate()-100);
+            document.cookie = 'data=' + JSON.stringify(data) + ';expires=' + now.toUTCString();
+            $('.cart_list').find('li').remove();
+            none();
+            $('.zhe').hide();
+        })
+        // 结算
+        $('.btn').on('click',function(){
+            if(localStorage.hasOwnProperty('phone')){
+                // alert('支付成功');
+                $('.zhe').show();
+            }else{
+                alert('请登录再结算');
+                location.href = '../html/login.html';
+            }
+        })
     });
 });

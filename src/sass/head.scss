@@ -1,4 +1,5 @@
 .Yhead{
+    position:relative;
     .Yhead_t{
         background: #f7f9f8;
         .container{
@@ -58,6 +59,7 @@
                         }
                     }
                     .con{
+                        z-index:120;
                         display:none;
                         width: 100px;
                         padding: 5px 12px;
@@ -66,13 +68,20 @@
                         left:-1px;
                         top:30px;
                         border:1px solid #b4c1a3;
+                        background: #fff;
                         a{
                             display:block;
                             line-height: 25px;
                             color:#727272;
                         }
+                        .back{
+                            line-height: 25px;
+                            color:#727272;
+                            cursor:pointer;
+                        }
                     }
-                    .con1{
+                    .con11{
+                        z-index:120;
                         display:none;
                         width: 125px;
                         padding: 10px;
@@ -81,8 +90,12 @@
                         left:-1px;
                         top:30px;
                         border:1px solid #b4c1a3;
+                        background: #fff;
                         .item{
                             margin: 5px 0;
+                            img{
+                                width: 125px;
+                            }
                         }
                     }
                 }
@@ -90,8 +103,7 @@
                     margin: -1px -1px 0;
                     border:1px solid #b4c1a3;
                     border-bottom: 1px solid #fff;
-                    .con,.con1{
-                        z-index:-1;
+                    .con,.con11{
                         display:block;
                     }
                     i{
@@ -120,6 +132,7 @@
             .search{
                 float:left;
                 width: 528px;
+                position:relative;
                 .search-bar{
                     .search-input{
                         display:block;
@@ -144,6 +157,18 @@
                         cursor:pointer;
                     }
                 }
+                #suggest{
+                    z-index:100;
+                    width: 200px;
+                    background: #fff;
+                    border:1px solid #ddd;
+                    position:absolute;
+                    left:0px;
+                    top:30px;
+                    .liang{
+                        border:1px solid #f60;
+                    }
+                }
                 .search-keywords{
                     line-height: 30px;
                     a{
@@ -161,6 +186,7 @@
                 width: 170px;
                 height: 28px;
                 font-weight:bold;
+                font-size:18px;
                 color:red;
                 padding: 6px 0;
                 background: #fff;
@@ -170,11 +196,19 @@
                     display:inline-block;
                     width: 28px;
                     height: 20px;
+                    font-size:12px;
+                    line-height: 7px;
                     text-align:center;
                     margin: 5px 0 0 24px;
                     background: url('../images/head/header-img.png') no-repeat -112px 0;
                 }
             }
         }
+    }
+    .xiding{
+        position:fixed;
+        left:111px;
+        top:0;
+        z-index:111;
     }
 }

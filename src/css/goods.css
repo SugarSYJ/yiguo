@@ -16,8 +16,13 @@
   height: 462px;
   background: rgba(255, 255, 255, 0.9);
   position: absolute;
-  left: -180px;
+  left: 0px;
   top: 38px;
+  z-index: 99;
+}
+
+.Ymain .container .Ynav_title ul li {
+  position: relative;
 }
 
 .Ymain .container .Ynav_title ul li a {
@@ -61,7 +66,43 @@
   background-position: -192px 0;
 }
 
-.Ymain .container .Ynav_title:hover ul {
+.Ymain .container .Ynav_title ul li ul {
+  display: none;
+  width: 215px;
+  height: 464px;
+  padding: 17px 20px;
+  border: 1px solid #bbb;
+  margin-left: -1px;
+  background: rgba(255, 255, 255, 0.9);
+  position: absolute;
+  left: 180px;
+  top: 0;
+}
+
+.Ymain .container .Ynav_title ul li ul h4 {
+  font-size: 18px;
+  margin-bottom: 10px;
+  text-decoration: underline;
+  color: #20985a;
+}
+
+.Ymain .container .Ynav_title ul li ul li {
+  float: left;
+  line-height: 25px;
+  margin-right: 30px;
+  color: #686868;
+  cursor: pointer;
+}
+
+.Ymain .container .Ynav_title ul > li:hover {
+  border-left: 1px solid #f60f60;
+}
+
+.Ymain .container .Ynav_title ul > li:hover > ul {
+  display: block;
+}
+
+.Ymain .container .Ynav_title:hover > ul {
   display: block;
 }
 

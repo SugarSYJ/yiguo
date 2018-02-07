@@ -8,8 +8,7 @@ require.config({
 	shim:{
 		// 设置依赖
 		carousel:['jquery'],
-		head:['jquery'],
-		foot:['jquery'],
+		headFoot:['jquery'],
 		common:['jquery'],
 		jqzoom:['jquery']
 	}

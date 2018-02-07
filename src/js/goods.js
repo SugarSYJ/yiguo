@@ -1,5 +1,5 @@
 ;require(['config'],function(){
-    require(['jquery','head','foot','common','jqzoom'],function(){
+    require(['jquery','headFoot','common','jqzoom'],function(){
         $('.Yheader').load('../html/head.html');
         $('.Yfooter').load('../html/foot.html');
         // 中间部分

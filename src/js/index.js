@@ -1,5 +1,5 @@
 ;require(['config'],function(){
-    require(['jquery','head','foot','common','carousel'],function(){
+    require(['jquery','headFoot','common','carousel'],function(){
         $('.Yheader').load('../html/head.html');
         $('.Yfooter').load('../html/foot.html');
         $('.Ybanner').yjCarousel({

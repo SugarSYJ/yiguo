@@ -4,7 +4,7 @@
             width:400,
             height:260,
             page:true,
-            duration:2000,
+            duration:3000,
             buttons:false,
             type:'fade',
             index:0,

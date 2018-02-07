@@ -1,5 +1,5 @@
 ;require(['config'],function(){
-    require(['jquery','foot','common'],function(){
+    require(['jquery','headFoot','common'],function(){
         // 尾部
         $('.Yfooter').load('../html/foot.html',function(){
             $('.Yfoot_service').hide();
@@ -44,13 +44,14 @@
                 success:function(data){
                     if(data === 'fail'){
                         alert('此号码已被注册，请换一个注册');
+                        return false;
                     }else{
-                        alert('注册成功')
+                        alert('注册成功');
+                        location.href = '../html/login.html';
                     }
-                    console.log(data);
+                    // console.log(data);
                 }
-            })
-            location.href = '../html/login.html';
+            });
         });
     });
 });

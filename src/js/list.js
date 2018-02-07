@@ -1,5 +1,5 @@
 ;require(['config'],function(){
-    require(['jquery','head','foot','common'],function(){
+    require(['jquery','headFoot','common'],function(){
         $('.Yheader').load('../html/head.html');
         $('.Yfooter').load('../html/foot.html');
         // 中间部分
@@ -73,6 +73,9 @@
                 },"json");
             });
             // 价格排序
+            $('.on').on('click',function(){
+                location.reload();
+            })
             $('.price_x').on('click',function(){
                 sort();
                 arr(data);
