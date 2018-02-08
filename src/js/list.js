@@ -54,7 +54,6 @@
                             for(var attr in item){
                                 params += attr + '=' + item[attr] + '&';
                             }
-                            // 删除多余的&
                             params = params.slice(0,-1);
                             // console.log(params);
                             location.href = '../html/goods.html' + encodeURI(params);

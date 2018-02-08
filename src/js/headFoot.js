@@ -9,7 +9,7 @@
         $('.reg').on('click',function(){
             location.href = '../html/reg.html';
         });
-        // 吸顶
+        // 吸顶、返回顶部
         var $right = $('.right_b');
         window.onscroll = function(){
             var scrollTop = window.scrollY;
